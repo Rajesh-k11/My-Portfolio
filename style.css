@@ -1,0 +1,209 @@
+/* .topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar 
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover 
+.topnav a:hover {
+  background-color:rgb(192, 113, 194);
+  color: black;
+}
+
+/* Add a color to the active/current link
+.topnav a.active {
+  background-color: #77c9ce;
+  color: white;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+}
+
+header nav a:hover {
+  background-color: lightblue;
+}
+
+main {
+  padding: 20px;
+  padding-top: 80px;
+}
+
+section {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+section ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+section li {
+  width: 30%;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 10px gray;
+}
+
+section li h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section form label,
+section form input[type="submit"] {
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+section form input[type="text"],
+section form input[type="email"],
+section form textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 2px 2px 10px gray;
+}
+
+footer {
+  background-color: lightgray;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+  section li {
+    width: 20%;
+  }
+
+  header h1 {
+    font-size: 36px;
+  }
+  
+  section h2 {
+    font-size: 48px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  section form {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+footer {
+  background-color: lightgray;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+footer i {
+  color: #000000;
+
+  
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+footer a {
+  color:lightgrey;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer a:hover {
+  background-color: #0366d6;
+  transform: scale(1.2);
+}
+
+
+
