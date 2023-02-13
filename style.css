@@ -38,7 +38,15 @@
     background-color: chartreuse;
     color: black;
   }
-
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+   .body{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: #fff;
+  }
+}
 
 
 
