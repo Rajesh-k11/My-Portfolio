@@ -31,6 +31,17 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-device-width: 640px) {
+  .body{
+    width: 400px;
+    height: 200px;
+    background-color: chartreuse;
+    color: black;
+  }
+
+
+
+
 body {
   font-family: Arial, sans-serif;
 }
